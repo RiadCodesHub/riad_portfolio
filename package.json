@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://RiadCodesHub.github.io/riad_portfolio",
+  "homepage": "https://riadcodeshub.github.io/riad_portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
