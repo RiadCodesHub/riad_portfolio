@@ -48,9 +48,9 @@ const Home : React.FC = () => {
             </div>
 
         <div className='flex gap-[40px] items-center justify-center'>
-        <a href="https://github.com/RiadCodesHub" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-full w-fit h-fit p-[15px]'><Github size={25}/></a>
-        <a href="https://www.linkedin.com/in/riad-azad/" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-full w-fit h-fit p-[15px]'><Linkedin size={25}/></a>
-        <a href="https://mail.google.com/" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-full w-fit h-fit p-[15px]'><Mail size={25}/></a>
+        <a target='_blank' href="https://github.com/RiadCodesHub" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-full w-fit h-fit p-[15px]'><Github size={25}/></a>
+        <a target='_blank' href="https://www.linkedin.com/in/riad-azad/" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-full w-fit h-fit p-[15px]'><Linkedin size={25}/></a>
+        <a target='_blank' href="https://mail.google.com/" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-full w-fit h-fit p-[15px]'><Mail size={25}/></a>
         </div>
        <button onClick={handleScroll} className='flex items-center justify-center bg-white p-4 rounded-full w-fit h-fit text-primary'>
         <ArrowDown size={25} strokeWidth={3} className='animate-bounce' />

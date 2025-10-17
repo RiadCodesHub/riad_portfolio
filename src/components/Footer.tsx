@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="flex flex-col gap-[30px]">
       <p className="text-sm  ">UI-UX & Frontend developer passionate about creating beautiful, functional digital experiences that make a difference.</p>
       <div className="flex items-center gap-[20px]">
-        <a href="https://github.com/RiadCodesHub"><Github size={20} /></a>
-        <a href="https://www.facebook.com/riad.21"><Facebook size={20}/></a>
-        <a href="https://www.linkedin.com/in/riad-azad/"><Linkedin size={20}/></a>
-        <a href="https://mail.google.com/"><Mail size={20}/></a>
+        <a target="_blank" href="https://github.com/RiadCodesHub"><Github size={20} /></a>
+        <a target="_blank" href="https://www.facebook.com/riad.21"><Facebook size={20}/></a>
+        <a target="_blank" href="https://www.linkedin.com/in/riad-azad/"><Linkedin size={20}/></a>
+        <a target="_blank" href="https://mail.google.com/"><Mail size={20}/></a>
       </div>
      </div>
      </div>

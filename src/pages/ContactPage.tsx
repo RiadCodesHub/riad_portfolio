@@ -70,8 +70,8 @@ const ContactPage : React.FC = () => {
     <div className='flex flex-col gap-[20px] rounded-lg'>
       <h5>Follow me</h5>
        <div className='flex gap-[20px]'>
-        <a href="https://www.facebook.com/riad.21" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-lg w-fit h-fit p-[15px]'><Facebook   size={25}/></a>
-        <a href="https://www.linkedin.com/in/riad-azad/" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-lg w-fit h-fit p-[15px]'><Linkedin   size={25}/></a>
+        <a target='_blank' href="https://www.facebook.com/riad.21" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-lg w-fit h-fit p-[15px]'><Facebook   size={25}/></a>
+        <a target='_blank' href="https://www.linkedin.com/in/riad-azad/" className='bg-white text-primary hover:bg-white/50 flex items-center justify-center rounded-lg w-fit h-fit p-[15px]'><Linkedin   size={25}/></a>
        </div>
     </div>
     <div className='bg-white flex flex-col p-[20px] gap-[20px] rounded-lg md:p-[40px]'>
