@@ -18,7 +18,7 @@ interface LinkItem {
 const navLinks: LinkItem[] = [
   { id:"home", title: "Home"},
   { id:"about", title: "About"},
-  { id:"services", title: "Service"},
+  { id:"services", title: "Services"},
   { id:"projects", title: "Projects"},
 ];
 

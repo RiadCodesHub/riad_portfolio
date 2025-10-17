@@ -33,7 +33,7 @@ const ContactPage : React.FC = () => {
             <textarea id='message' className='bg-offwhite rounded-lg w-full text-base px-[14px] py-[10px] outline-0 focus:outline-none' placeholder='Write your message ' required />
           </label>
          
-         <button className="bg-primary hover:bg-primary/95 flex items-center justify-center gap-[20px] w-full py-[10px] text-small text-white rounded-lg">
+         <button className="bg-primary hover:bg-primary/95 flex items-center justify-center mt-[10px] gap-[20px] w-full py-[10px] text-small text-white rounded-lg">
          <Send size={20}/> Send your message
          </button>
          </div>

@@ -38,7 +38,7 @@ const Footer = () => {
      </div>
   </div>
 
-    <p className="border-t-1 w-full max-w-screen-lg mt-[40px] pt-[20px]">&copy; {new Date().getFullYear()} All rights Reserve</p>
+    <p className="border-t-1 w-full max-w-screen-lg mt-[40px] pt-[20px]">&copy; {new Date().getFullYear()} All rights Reserved</p>
     </div>
   )
 }
