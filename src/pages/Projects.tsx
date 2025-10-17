@@ -75,7 +75,7 @@ const Projects : React.FC = () => {
               button={
                <a href={project.link}
                   target='_blank'
-                  rel='noopener norefferer' >
+                  rel='noopener noreferrer' >
                 <button className='bg-primary text-small text-white px-[12px] py-[8px] flex items-center hover:bg-primary/90 rounded-lg'>
                   <project.buttonIcon className='w-[20px] h-auto mr-2' /> 
                   {project.buttonText}
