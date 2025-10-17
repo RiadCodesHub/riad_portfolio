@@ -1,10 +1,14 @@
 import React from 'react';
 import ProjectCards from '../components/ProjectCards';
 import { ChevronsLeftRight, Palette } from 'lucide-react';
+import movieImg from '../assets/movie_search_app.png';
+import deshboardImg from '../assets/user_deshboard.png';
+import todoImg from '../assets/todo_app.png';
+import zoseTemplate from '../assets/zose_template.png';
 
 interface ProjectDataProps {
   id: number;
-  image: string;
+  image: any;
   title: string;
   description: string;
   tags: string[];
@@ -15,7 +19,7 @@ interface ProjectDataProps {
 
 const projectData: ProjectDataProps[] = [
   {id: 1, 
-   image: "./src/assets/movie_search_app.png",
+   image: {movieImg},
    title: "Movie Search App",
    description: "movie search application built with React and OMDb API, where users can search movies by title, view details, and navigate seamlessly between pages.",
    tags: ["React", "Tailwindcss", "Omdb Api"],
@@ -25,7 +29,7 @@ const projectData: ProjectDataProps[] = [
   },
 
   { id: 2, 
-   image: "./src/assets/user_deshboard.png",
+   image: {deshboardImg},
    title: "User Deshboard",
    description: "Crafting a Modern Dashboard with React, Tailwind CSS, and HTML Description:In my latest project, I designed a sleek and fully responsive dashboard using React, Tailwind",
    tags: ["React", "Tailwindcss"],
@@ -35,7 +39,7 @@ const projectData: ProjectDataProps[] = [
 },
 
   { id: 3, 
-   image: "./src/assets/todo_app.png",
+   image: {todoImg},
    title: "Todo App",
    description: "A task manager built with React and Tailwind CSS, using Local Storage to save tasks for a seamless user experience.",
    tags: ["React", "Tailwindcss"],
@@ -44,7 +48,7 @@ const projectData: ProjectDataProps[] = [
    link: "https://github.com/RiadCodesHub/random-password-generator-and-todo-app"},
 
   { id: 4, 
-   image: "./src/assets/zose_template.png",
+   image: {zoseTemplate},
    title: "Zose Landing page Template",
    description: "Landing page design inspired by the Zose CCTV template, created in Figma with a modern layout, clean typography, and smooth visual hierarchy.",
    tags: ["Figma"],
