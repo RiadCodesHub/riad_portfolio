@@ -74,7 +74,7 @@ const Header: React.FC = (): JSX.Element => {
                         <ul className="flex gap-6">
                             {navLinks.map((link, index) => (
                                 <li key={index}>
-                                    <a href={`#${link.id}`} className="text-sm font-semibold">{link.title}</a>
+                                    <a href={`#${link.id}`} className="text-sm font-semibold text-primary hover:text-black">{link.title}</a>
                                 </li>
                             ))}
                         </ul>

@@ -16,8 +16,8 @@ const ContactPage : React.FC = () => {
           <p className='text-small'>Fill out the form below and I'll get back to you as soon as possible.</p>
           </span>
 
-          <div className='flex flex-col gap-[30px]'>
-         <span className='flex flex-col w-full md:flex-row gap-[40px]'>
+          <div className='flex flex-col gap-[20px]'>
+         <span className='flex flex-col w-full md:flex-row gap-[20px] md:gap-[40px]'>
           <label htmlFor="name" className='flex flex-col gap-[10px] w-full'>Name
             <input type="text" id='name' placeholder='Write your name' className='bg-offwhite rounded-lg w-full text-base px-[14px] py-[10px] outline-0 focus:outline-none' required />
           </label>
