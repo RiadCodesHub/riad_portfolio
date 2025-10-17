@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&family=Poppins:wght@100..900&display=swap');
+
+:root {
+  --font-family-base: 'Roboto', sans-serif;
+  --font-family-heading: "Poppins", sans-serif;
+
+  --font-size-small: 0.875rem;  
+  --font-size-base: 1rem;       
+  --font-size-large: 1.125rem;  
+  --font-size-xl: 1.25rem;      
+  --font-size-xxl: 2rem;        
+  
+  --offblack: #333333;
+  --darkblue: #000412;
+  --offwhite: #DEDEDE;
+}
+
+@theme{
+  --font-base: var(--font-family-base);
+  --font-heading: var(--font-family-heading);
+
+  --text-small: var(--font-size-small);
+  --text-base: var(--font-size-base);
+  --text-large: var(--font-size-large);
+  --text-xl: var(--font-size-xl);
+  --text-xxl: var(--font-size-xxl);
+
+  --color-primary: var(--offblack);
+  --color-secondary: var(--darkblue);
+  --color-offwhite: var(--offwhite);
+ 
+  }
+
+html, body {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply font-base overflow-x-hidden max-w-[1460px] w-full min-w-[375px] mx-auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-heading text-primary;
+}
+
+h1 { @apply text-[36px] font-semibold}
+h2 { @apply text-[28px] font-semibold; }
+h3 { @apply text-[24px] font-semibold; }
+h4 { @apply text-[20px] font-semibold; }
+h5 { @apply text-[18px] }
+
+@media (width >= 768px) {
+  h1 { @apply text-[48px]; }
+  h2 { @apply text-[40px] font-semibold; }
+  h3 { @apply text-[32px] font-semibold; }
+  h4 { @apply text-[28px] font-semibold; }
+  h5 { @apply text-[24px] font-semibold; }
+  h6 { @apply text-[20px] font-semibold; }
+}
+
+.dark {
+  --offblack: #ffffff; /* invert colors in dark mode */
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
